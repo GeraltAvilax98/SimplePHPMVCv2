@@ -50,6 +50,9 @@
           <td>
             {{clientemail}}
           </td>
+          <td class="center"> 
+            <a class="btn depth-1 s-margin" href="index.php?page=comunicaciones"><span class="ion-email"></span></a>
+          </td>
           <td class="center">
             <a class="btn depth-1 s-margin" href="index.php?page=cliente&mode=UPD&clientid={{clientid}}"><span class="ion-edit"></a> &nbsp;
             <a class="btn depth-1 s-margin" href="index.php?page=cliente&mode=DSP&clientid={{clientid}}"><span class="ion-eye"></a>&nbsp;
